@@ -21,6 +21,9 @@ main {
     font-style: italic;
 }
 
+#row1 {
+    column-span: 3;
+}
 p {
     font-size: 1.25rem;
     line-height: 1rem;
@@ -32,10 +35,3 @@ p.callout {
     font-style: italic;
 }
 
-#row1 {
-    column-span: 3;
-}
-
-#row2 {
-    column-span: var(3);
-}

@@ -9,6 +9,10 @@ main {
     column-count: 6;
 }
 
+#title  {
+   column-span: all;
+}
+
 #title h1 {
     font-size: 4rem;
 }

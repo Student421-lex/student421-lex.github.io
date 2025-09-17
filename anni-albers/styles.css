@@ -22,7 +22,7 @@ main {
 }
 
 #row1 {
-    column-span: 3;
+    column-span: calc(4);
 }
 p {
     font-size: 1.25rem;

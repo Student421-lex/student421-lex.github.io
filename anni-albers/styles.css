@@ -37,5 +37,5 @@ p.callout {
 }
 
 #row2 {
-    column-span: 2;
+    column-span: var(3);
 }

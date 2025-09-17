@@ -17,7 +17,27 @@
 </head>
 <body>
 
-	<h1></h1>
-
+	<h1>Absolute CSS Length Units</h1>
+        <p>Absolute value CSS lengths are generally considered to always be the same size and don’t change or flex in size. Some of these value are more useful for print though than for a screen output, such as cm, mm, or in. Px, which stands for pixels, tends to be the absolute value CSS length that is used.</p>
+        <p>It would be good to know that even though px is under the absolute value category that 1px is not equal to one physical device pixel. Depending on the device 1px may span many physical pixels. The same can be said for the other measurements too but as px is the value that we will most likely use it is best to be known about I feel.</p>
+<br>
+    <h1>Relative CSS Length Units</h1>
+        <p>Relative CSS length units are units that are relative to something else. As an example em is relative to the font size of this element or rem is relative to the font size of the root element. There is a benefit to using relative length units as with planning you can make it so the size of text or other elements scales relative to everything else on the page. </p>
+        <p>They also tend to be based on font, container, or viewpoint sizes.</p>
+<br>
+    <h1>Some Units Explained</h1>
+        <h3>Em & Rem</h3>
+            <p>Em represents the calculated font-size of the element while rem represents the font-size of the root element. </p>
+                <ul>
+                    <li>Em when used on the font-size property itself represents the inherited font-size of the element.</li>
+                    <li>Rem when used with the root element font-size it represents its initial value.</li>
+                </ul>
+        <h3>Vw & Vh</h3>
+                <p>Vw represents a percentage of the width of the viewport’s initial containing block and vh represents a percentage of the height of the viewport’s initial containing block. </p>
+                    <ul>
+                        <li>1vh is 1% of the viewport height</li>
+                        <li>1vw is 1% of the viewport width</li>
+                    </ul>
+                <p>Both have respective viewport percentage units for small, large and dynamic, such as svh (small vh height) and svw (small vw height).</p>
 </body>
 </html>

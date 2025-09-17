@@ -32,3 +32,10 @@ p.callout {
     font-style: italic;
 }
 
+#row1 {
+    column-span: 3;
+}
+
+#row2 {
+    column-span: 2;
+}

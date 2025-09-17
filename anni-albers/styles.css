@@ -9,11 +9,11 @@ main {
     column-count: 6;
 }
 
-h1 {
-    font-size: 5rem;
+#title h1 {
+    font-size: 4rem;
 }
 
-h3 {
+#title h3 {
     font-style: italic;
 }
 

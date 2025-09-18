@@ -73,3 +73,9 @@ p.callout {
     font-size: 1rem;
     line-height: auto;
 }
+
+p.callout2 {
+     font-size: 1.75rem;
+    line-height: 1.25;
+    font-style: italic;
+}

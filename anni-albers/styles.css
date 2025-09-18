@@ -47,7 +47,7 @@ p.callout {
 
 #secondLayout, #rows2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 #secondLayout, #rows3 {
@@ -67,18 +67,10 @@ p.callout {
 
 #secondLayout, #rows6 {
     display: flex;
-    flex-direction: row;
-}
-
-#secondLayout, #rows7 {
-    display: flex;
     flex-direction: column;
 }
 
-#secondLayout, #rows8 {
-    display: flex;
-    flex-direction: column;
-}
+
 
 
 #secondLayout, #about2 {

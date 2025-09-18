@@ -37,43 +37,26 @@ p.callout {
 
 #secondLayout, #title2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 #secondLayout, #rows1 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 #secondLayout, #rows2 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
 }
 
 #secondLayout, #rows3 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
-
-#secondLayout, #rows4 {
-    display: flex;
-    flex-direction: column;
-}
-
-#secondLayout, #rows5 {
-    display: flex;
-    flex-direction: column;
-}
-
-#secondLayout, #rows6 {
-    display: flex;
-    flex-direction: column;
-}
-
-
-
 
 #secondLayout, #about2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }

@@ -43,22 +43,26 @@ p.callout {
 #secondLayout, #rows1 {
     display: flex;
     flex-direction: row;
+    margin:auto;
 }
 
 #secondLayout, #rows2 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: auto;
 }
 
 #secondLayout, #rows3 {
     display: flex;
     flex-direction: row;
+    margin: auto;
 }
 
 #secondLayout, #about2 {
     display: flex;
     flex-direction: column;
+    margin: auto
 }
 
 #secondLayout, #title2 h1 {

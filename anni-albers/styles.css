@@ -40,53 +40,62 @@ p.callout {
     flex-direction: row;
 }
 
-#secondLayout, #row1 {
+#secondLayout, #rows1 {
     display: flex;
     flex-direction: column;
 }
 
-#secondLayout, #row2 {
+#secondLayout, #rows2 {
     display: flex;
     flex-direction: column;
 }
 
-#secondLayout, #row3 {
+#secondLayout, #rows3 {
     display: flex;
     flex-direction: column;
 }
 
-#secondLayout, #row4 {
+#secondLayout, #rows4 {
     display: flex;
     flex-direction: column;
 }
 
-#secondLayout, #row5 {
+#secondLayout, #rows5 {
     display: flex;
     flex-direction: column;
 }
 
-#secondLayout, #row6 {
+#secondLayout, #rows6 {
     display: flex;
     flex-direction: column;
 }
 
-#secondLayout, #row7 {
+#secondLayout, #rows7 {
     display: flex;
     flex-direction: column;
 }
 
-#secondLayout, #row8 {
+#secondLayout, #rows8 {
     display: flex;
     flex-direction: column;
 }
 
-#secondLayout, #row9 {
+#secondLayout, #rows9 {
     display: flex;
     flex-direction: column;
 }
 
-#secondLayout, #row10 {
+#secondLayout, #rows10 {
     display: flex;
     flex-direction: column;
 }
 
+#secondLayout, #rows11 {
+    display: flex;
+    flex-direction: column;
+}
+
+#secondLayout, #about2 {
+    display: flex;
+    flex-direction: row;
+}

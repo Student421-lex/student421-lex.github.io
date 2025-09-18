@@ -79,3 +79,9 @@ p.callout2 {
     line-height: 1.25;
     font-style: italic;
 }
+
+#secondLayout {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}

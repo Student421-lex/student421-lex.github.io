@@ -95,7 +95,11 @@ p.callout2 {
     font-style: italic;
 }
 
-
+#secondLayout {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
 
 #about2 h2 {
     font-size: 2rem;

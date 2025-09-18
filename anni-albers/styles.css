@@ -33,3 +33,14 @@ p.callout {
     font-style: italic;
 }
 
+/* layout 2 */
+
+#secondLayout, #title {
+    display: flex;
+    flex-direction: row;
+}
+
+#secondLayout, #row1 {
+    display: flex;
+    flex-direction: column;
+}

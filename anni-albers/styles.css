@@ -60,3 +60,16 @@ p.callout {
     display: flex;
     flex-direction: column;
 }
+
+#secondLayout, #title2 h1 {
+    font-size: 4rem;
+}
+
+#secondLayout, #title2 h3 {
+    font-style: italic;
+}
+
+#secondLayout, #rows1 p{
+    font-size: 1rem;
+    line-height: auto;
+}

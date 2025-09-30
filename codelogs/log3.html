@@ -24,7 +24,14 @@
         <p>These are useful because it is a way that one can ensure that their site will look the way they want it to depending on a relative size rule that they set.</p>
     <h3>Example Supported Media Features</h3>
         <ul>
-            <li></li>
+            <li>Aspect Ratio</li>
+                <p>This allows you to set styles based on the aspect ration of the viewport. An example would be a &lt@media (min-aspect-ratio: 12/9)&gt and then having what you want to have show up or the page look like when its this size.</p>
+            <li>Resolution</li>
+                <p>With this one you can set a style based on a device's pixel density. An example would look like this &lt@media (min-resolution: 200dpi)&gt.</p>
+            <li>Width</li>
+                <p>This allows you to set the style based on the width of the viewport. An exampe would look something like &lt@media (width: 250px)&gt.</p>
+            <li>Prefers Color Scheme</li>
+                <p>This feature is used to look at a person's preferred theme, such as dark or light, and then asign a style that would show up specifically for that theme. It would look somthing like this &lt@media screen and (prefers-color-scheme: dark)&gt and then followed by your choice of website style.</p>
         </ul>
 </body>
 </html>

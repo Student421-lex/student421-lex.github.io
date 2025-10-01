@@ -58,7 +58,7 @@ body {
 
 /* desktop style */
 
-@media screen and (min-width: 430px) {
+@media screen and (min-width: 431px) {
 
     #pic {
     background-image: url(rhododendron.jpeg);
@@ -72,35 +72,36 @@ body {
 #title {
     color: white;
     position: relative;
-    top: -80px;
+    top: -90px;
     padding: 5px;
 }
 
 #title h1 {
-   text-size-adjust: 150%;
+   text-size-adjust: 200%;
 }
 
-#alternateNames #plantSize #geo #climate {
-    display: grid;
+#grid {
+   display: flex;
+  gap: 5px;
+    padding: 5px;
+    position: relative;
+    top: -100px;
+    flex-wrap: wrap;
 }
 
-#alternateNames ul {
-   
+#alternateNames {
+    text-size-adjust: 105%
 }
 
 #plantSize {
-   
+    text-size-adjust: 105%;
 }
 
-#geo h3 {
-   
-}
-
-#geo ul {
-   
+#geo {
+    text-size-adjust: 105%;
 }
 
 #climate {
-   
+    text-size-adjust: 105%;
 }
 }

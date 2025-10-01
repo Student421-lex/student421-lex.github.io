@@ -1,0 +1,8 @@
+/* mobile first design for webpage */
+
+#pic {
+    background-image: url(rhododendron.jpeg);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}

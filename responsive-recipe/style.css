@@ -1,21 +1,5 @@
 @media screen and (max-width:430px) {
-#header {
-    position: center;
+    
 }
 
-#ingredients {
-
-}
-
-#directions {
-
-}
-
-#footer {
-
-}
-}
-
-@media screen and (min-width:431px){
-
-}
+@media screen and (min-width:431px) {}

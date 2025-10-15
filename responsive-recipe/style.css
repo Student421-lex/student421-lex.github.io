@@ -1,6 +1,6 @@
 @media screen and (max-width:430px) {
 #header {
-
+    position: center;
 }
 
 #ingredients {
@@ -17,5 +17,5 @@
 }
 
 @media screen and (min-width:431px){
-    
+
 }

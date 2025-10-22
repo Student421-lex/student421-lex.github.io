@@ -1,0 +1,52 @@
+@media screen and (max-width:425px) {
+    #header {
+        position: relative;
+        top: 220px;
+        justify-content: center;
+    }
+    #img {
+        position: relative;
+        top: -110px;
+    }
+    #description {
+        position: relative;
+        top: -35px;
+        font-style: italic;
+    }
+}
+
+@media screen and (min-width:426px) {
+    #img {
+        position: relative;
+        top: -40px;
+        left: 410px;
+    }
+
+    #img img {
+        width: 500px;
+        height: auto;
+    }
+    #header {
+        position: relative;
+        top: 400px;
+        left: 400px
+    }
+    #description {
+        position: relative;
+        left: 430px;
+    }
+    #ingredients {
+        position: relative;
+        top: -470px
+    }
+    #directions {
+        position: relative;
+        top: -450px;
+        max-width: 390px;
+    }
+    #footer {
+        position: relative;
+        top: -1000px;
+        left: 634px
+    }
+}

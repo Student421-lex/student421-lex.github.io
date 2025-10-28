@@ -120,3 +120,10 @@ body {
     left: 10px
 }
 }
+
+/* darkmode css */
+
+body.DarkMode {
+    background-color: #521428;
+    color: black;
+}

@@ -80,7 +80,7 @@ body {
 #title {
     color: white;
     position: relative;
-    top: -90px;
+    top: -80px;
     padding: 5px;
 }
 
@@ -115,7 +115,7 @@ body {
 
 #toggleDarkMode {
   position: relative;
-    top: -90px;
+    top: -85px;
     padding: 5px;
     left: 10px
 }

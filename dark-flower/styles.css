@@ -55,7 +55,14 @@ body {
     margin: 5px;
 }
 
+#toggleDarkMode {
+      position: relative;
+    top: -70px;
+    padding: 5px;
+    left: 10px
 }
+}
+
 
 /* desktop style */
 
@@ -107,6 +114,9 @@ body {
 }
 
 #toggleDarkMode {
-
+  position: relative;
+    top: -110px;
+    padding: 5px;
+    left: 10px
 }
 }

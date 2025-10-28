@@ -1,0 +1,107 @@
+/* mobile first design for webpage */
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f5d5df;
+}
+@media screen and (max-width:430px) {
+#pic {
+    background-image: url(rhododendron.jpeg);
+    width: 100vw;
+    height: 40vh;
+    postition: justified;
+    background-size: cover;
+    background-position: center;
+}
+
+#title {
+    color: white;
+    position: relative;
+    top: -70px;
+    padding-left: 5px;
+}
+
+#title h1 {
+    text-size-adjust: 125%;
+}
+
+#alternateNames h3 {
+    text-align: center;
+}
+
+#alternateNames ul {
+    text-align: center;
+    list-style-position: inside;
+    padding: 3px;
+}
+
+#plantSize {
+   text-align: center;
+}
+
+#geo h3 {
+    text-align: center;
+}
+
+#geo ul {
+    text-align: center;
+    list-style-position: inside;
+    padding: 3px;
+}
+
+#climate {
+    text-align: center;
+    margin: 5px;
+}
+}
+
+/* desktop style */
+
+@media screen and (min-width: 431px) {
+
+    #pic {
+    background-image: url(rhododendron.jpeg);
+    width: 100vw;
+    height: 40vh;
+    postition: justified;
+    background-size: cover;
+    background-position: center;
+}
+
+#title {
+    color: white;
+    position: relative;
+    top: -90px;
+    padding: 5px;
+}
+
+#title h1 {
+   text-size-adjust: 200%;
+}
+
+#grid {
+   display: flex;
+  gap: 5px;
+    padding: 5px;
+    position: relative;
+    top: -100px;
+    flex-wrap: wrap;
+}
+
+#alternateNames {
+    text-size-adjust: 105%
+}
+
+#plantSize {
+    text-size-adjust: 105%;
+}
+
+#geo {
+    text-size-adjust: 105%;
+}
+
+#climate {
+    text-size-adjust: 105%;
+}
+}

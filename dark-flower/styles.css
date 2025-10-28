@@ -54,6 +54,7 @@ body {
     text-align: center;
     margin: 5px;
 }
+
 }
 
 /* desktop style */
@@ -103,5 +104,9 @@ body {
 
 #climate {
     text-size-adjust: 105%;
+}
+
+#toggleDarkMode {
+
 }
 }

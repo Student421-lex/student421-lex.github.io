@@ -59,7 +59,7 @@ body {
       position: relative;
     top: -70px;
     padding: 5px;
-    left: 10px
+    left: 10px;
     color: #832341;
     text-decoration-color: white;
 }
@@ -121,7 +121,7 @@ body {
     padding: 5px;
     left: 10px;
     color: #832341;
-    text-decoration-color: white;
+    background-color: #f5d5df;
 }
 }
 

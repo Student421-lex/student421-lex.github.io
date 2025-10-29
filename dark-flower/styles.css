@@ -132,6 +132,6 @@ body.darkMode {
     color: white;
 }
 
-#toggleDarkMode.darkMode {
+#toggleDarkMode:focus {
     background-color: #f5d5df;
 }

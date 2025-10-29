@@ -132,7 +132,7 @@ body.darkMode {
     color: white;
 }
 
-.darkMode#toggleDarkMode {
+#toggleDarkMode.darkMode {
     background-color: #f5d5df;
     color:#832341;
 }

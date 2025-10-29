@@ -10,7 +10,7 @@ body {
     background-image: url(rhododendron.jpeg);
     width: 100vw;
     height: 40vh;
-    postition: justified;
+    position: justified;
     background-size: cover;
     background-position: center;
 }
@@ -74,7 +74,7 @@ body {
     background-image: url(rhododendron.jpeg);
     width: 100vw;
     height: 40vh;
-    postition: justified;
+    position: justified;
     background-size: cover;
     background-position: center;
 }
@@ -134,5 +134,4 @@ body.darkMode {
 
 #toggleDarkMode.darkMode {
     background-color: #f5d5df;
-    color:#832341;
 }

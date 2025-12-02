@@ -1,8 +1,8 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
-	
+
 	<!-- meta tags and title -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,10 +19,18 @@
 	<!-- external and internal JavaScript -->
 	<script src="scripts.js" defer></script>
 	<script>
-		// in-page JavaScript here
+		// Get the button element by its ID
+		var button = document.getElementById("entry");
+
+		// Add a click event listener
+		button.addEventListener("click", function () {
+			// Redirect to the new URL
+			window.location.href = "/majorproject/entry.html";
+		});
 	</script>
 
 </head>
+
 <body>
 
 	<div id="navMenu">
@@ -33,27 +41,32 @@
 		</ul>
 	</div>
 
-    <div id="title">
-        <h1>Choose Your Own Adventure</h1>
-        <h3>Test of Courage</h3>
-    </div>
+	<div id="title">
+		<h1>Choose Your Own Adventure</h1>
+		<h3>Test of Courage</h3>
+	</div>
 
 	<div id="intro">
-        <p>Your senior class has decided that instead of the normal senior prank or ditch day that they would do a test of courage by exploring a closed elementary school building nearby that has been left empty for years. The senior class council was able to get permission for certain rooms and areas of the school to be explored by your classmates for a night. You are to be seperated into groups and go around the building with only flashlights to see with. </p>
-    </div>
+		<p>Your senior class has decided that instead of the normal senior prank or ditch day that they would do a test
+			of courage by exploring a closed elementary school building nearby that has been left empty for years. The
+			senior class council was able to get permission for certain rooms and areas of the school to be explored by
+			your classmates for a night. You are to be seperated into groups and go around the building with only
+			flashlights to see with. </p>
+	</div>
 
-    <div id="entry">
-        <button type="button" onclick="/entry.html">Enter the School</button>
-    </div>
+	<div id="entry">
+		<button type="button">Enter the School</button>
+	</div>
 
 	<div id="entryCopy">
-		 <footer>
+		<footer>
 
-        <p>&copy; Photo by Michael on Unsplash</p>
+			<p>&copy; Photo by Michael on Unsplash</p>
 
-    </footer>
+		</footer>
 
 	</div>
-    
+
 </body>
+
 </html>
